@@ -1,0 +1,22 @@
+{
+    "name": "kyle/devapi",
+    "description": "simple api to help with dev tasks",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kyle Beasley",
+            "email": "kyle.beasley17@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload" : {
+	"files" : [
+	    "./config.php"
+	],
+	"psr-4" : {
+	    "App\\" : "./app"
+	}
+    }
+}
