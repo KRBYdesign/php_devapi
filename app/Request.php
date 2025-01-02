@@ -19,4 +19,9 @@ class Request
     {
 	return $this->requestMethod;
     }
+
+    public function getRequestParams() : array
+    {
+	return $this->requestParams;
+    }
 }
